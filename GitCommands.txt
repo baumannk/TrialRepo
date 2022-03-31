@@ -3,3 +3,8 @@ git add -A #adds altered and untracked files to staging area
 git commit -am '<message>' #commit changes to all files in staging area with message
 git push #pushes locally committed changes up to github repo
 git pull #pulls any changes from github down to local repo
+git log #shows log of all commits to date
+git log --oneline #each commit takes only one line
+git log -3 #shows last 3 commits
+q #brings you back to command line
+git log -1 -p HEAD #shows changes made
